@@ -21,6 +21,7 @@ Discord: @henry_epic#8257
 Twitter: https://twitter.com/ePICBlockchain
 
 
+## [Link to Medium Post](https://medium.com/@Henry_ePIC/navigating-mining-options-for-the-ethereum-classic-sha-3-fork-1614e99c3e4a)
 
 
 
