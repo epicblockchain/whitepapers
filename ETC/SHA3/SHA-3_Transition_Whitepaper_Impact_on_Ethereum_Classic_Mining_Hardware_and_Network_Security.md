@@ -73,7 +73,7 @@ A software infrastructure to support SHA-3 mining already exists today for GPUs 
 
 Network hashrate and, moreover, network security relies heavily not only on miners but loyal and dedicated miners who truly support the network.  Changing to [ECIP 1049](https://github.com/ethereumclassic/ECIPs/issues/13) will lead to an increased hashrate, diversity of mining hardware and as the move to ASICs occurs, dedicated hardware for ETC. This will significantly make the ETC network more resilient to GPU attacks.
 
-The absence of ASICs at the start of the SHA-3 fork should not be a concern to the ETC community. ASICs require time and large investments to bring to market thus ASIC providers will require certainty before committing resources. The rewards from mining along with coin emission rate definitely makes ASICs an attractive option. With [ECIP 1049](https://github.com/ethereumclassic/ECIPs/issues/13)’s current timeline, there is adequate time and existing hashrate to support the network until the arrival of ASICs.  Both GPUs and FPGAs will be used to mine SHA-3, at the inception of SHA-3 on Block 11M, which will act as a bridge until ASIC adoption. 
+The absence of ASICs at the start of the SHA-3 fork should not be a concern to the ETC community. ASICs require time and large investments to bring to market thus ASIC providers will require certainty before committing resources. The rewards from mining along with coin emission rate definitely makes ASICs an attractive option. With [ECIP 1049](https://github.com/ethereumclassic/ECIPs/issues/13)’s current timeline, there is adequate time and existing hashrate to support the network until the arrival of ASICs.  Both GPUs and FPGAs will be used to mine SHA-3, at the inception of SHA-3 on Block 11.5M (million), which will act as a bridge until ASIC adoption. 
 
 ## Algorithm, SHA-3 or Keccak
 
@@ -81,6 +81,7 @@ Released as the latest secure hash algorithm in 2015, [SHA-3](https://en.wikiped
 
 Keccak is a family of sponge functions developed by the Keccak team and was selected as the winner of the the SHA-3 NIST competition. When published, NIST adopted the Keccak algorithm in its entirety, but modified the padding message by one byte. These two variants will have different values for their outputs, but both are equally secure. SHA-3 is often used interchangeably to refer to SHA-3 and Keccak. Ethereum was finalized with Keccak before SHA-3.
 
+*Chart 1:  ECIP 1049 Timeline  *
 <p align="center"><img src="images/image_2.jpg" alt="image2" width="1000"/></p>
 
 
@@ -100,6 +101,7 @@ The fluidity of GPU mining can be illustrated by comparing the hashrate to the p
 
 As such, being the smaller chain on the Ethash PoW algorithm, [ETC was 51% attacked twice over the course of a weekend](https://blog.coinbase.com/ethereum-classic-etc-is-currently-being-51-attacked-33be13ce32de) in January of 2019.  A post-mortem meeting was held [the following Wednesday](https://etherplan.com/2019/05/17/post-mortem-meeting-ethereum-classic-etc-january-2019-reorg-attacks/7566/).  The attacks on ETC were probably carried out using repurposed ETH mining hashware.
 
+*Chart 3:  Hash rate increase during January 2019 attacks on ETC*
 
 <p align="center"><img src="images/image_4.png" alt="image4" width="1000"/></p>
 
@@ -292,7 +294,7 @@ A variety of SHA-3 mining hardware, ranging from GPUs, FPGAs to ASICs, are now b
 
 ## SHA-3 Infrastructure
 
-[ECIP 1049](https://github.com/ethereumclassic/ECIPs/issues/13) is a large change to the network but a vibrant ecosystem of mining already exists today which can be leveraged to ensure a smooth transition at Block 11M.  This does not mean there isn’t work to be done. The ETC community needs to ensure there are qualified mining solutions available well in advance of Block 11M.
+[ECIP 1049](https://github.com/ethereumclassic/ECIPs/issues/13) is a large change to the network but a vibrant ecosystem of mining already exists today which can be leveraged to ensure a smooth transition at Block 11.5M.  This does not mean there isn’t work to be done. The ETC community needs to ensure there are qualified mining solutions available well in advance of Block 11.5M.
 
 There is potential to enlist the help of popular miners like CGMiner, Claymore, Ethminer and SGMiner. Changes to these miners would involve replacing Ethash GPU kernel with an equivalent SHA-3 kernel. These kernels are currently available in various open source miners (including [CGMiner](https://github.com/ckolivas/cgminer), [Claymore](https://github.com/nanopool/Claymore-Dual-Miner/releases) and [SGMiner](https://github.com/genesismining/sgminer-gm/releases)), as they are implemented for use in other Altcoins. FPGA bitstreams vendors and creators would also need to put work into updating their designs to ensure a smooth transition. WIth ample notification and potential mining revenue, there is no doubt that current SHA-3 bitstreams from [Whitefire](https://fpga.guide/en/whitefire/), [Allmine](https://fpga.guide/en/allmine/) and others can be leveraged for ETC mining on existing FPGA hardware.
 
@@ -511,7 +513,7 @@ The cost of renting FPGAs is even higher due to the scarcity of hardware and the
 
 Cryptocurrency mining has evolved from CPUs to GPUs to FPGAs and finally to ASICs; however one could say that the former of these devices are all technically different types of ASICs.  Ethash, being memory bound as an algorithm has evolved slower due to its inherent complexities which does not bode well when networks grow and the power cost of mining grows exponentially.
 
-The most common objection to SHA-3 from the ETC community and [ECIP 1049](https://github.com/ethereumclassic/ECIPs/issues/13) is the fear that ASICs will not appear and the network will simply fall apart. On the contrary, GPUs and FPGAs will be used to mine SHA-3 on Block 11M which will act as a bridge until ASIC adoption. The miners that support the network today will play an integral part during this transition.
+The most common objection to SHA-3 from the ETC community and [ECIP 1049](https://github.com/ethereumclassic/ECIPs/issues/13) is the fear that ASICs will not appear and the network will simply fall apart. On the contrary, GPUs and FPGAs will be used to mine SHA-3 on Block 11.5M which will act as a bridge until ASIC adoption. The miners that support the network today will play an integral part during this transition.
 
 With [ECIP 1049](https://github.com/ethereumclassic/ECIPs/issues/13), the mining evolution will be accelerated and ASICs will inevitably make their appearance, securing the network while reducing the network power footprint as well.
 
@@ -660,7 +662,7 @@ Being simpler in nature, the [ECIP 1049](https://github.com/ethereumclassic/ECIP
 
 ASIC mining hardware will follow suit when [ECIP 1049](https://github.com/ethereumclassic/ECIPs/issues/13) becomes accepted.  Many parties have already shown interest. The large cost of NRE will follow due to the large mining rewards that ETC has to offer. An already thriving community will continue to make developments and improvements to the network.
 
-In order to ensure a smooth transition at Block 11M, the ETC community needs to ensure that there are several viable options for mining available from the start.  WIth the ETC Astor Testnet already alive today, the community can rally together to provide a working infrastructure. Reaching out to popular GPU miners and FPGA developers as early as possible will greatly help the efforts of the proposed [ECIP 1049](https://github.com/ethereumclassic/ECIPs/issues/13) transition.
+In order to ensure a smooth transition at Block 11.5M, the ETC community needs to ensure that there are several viable options for mining available from the start.  WIth the ETC Astor Testnet already alive today, the community can rally together to provide a working infrastructure. Reaching out to popular GPU miners and FPGA developers as early as possible will greatly help the efforts of the proposed [ECIP 1049](https://github.com/ethereumclassic/ECIPs/issues/13) transition.
 
 With the [ECIP 1049](https://github.com/ethereumclassic/ECIPs/issues/13) change and ample notification to the community, we expect the hashrate of the ETC network to increase greatly.  This will push the network to the forefront of the SHA-3 mining ecosystem and out of the shadows of the Ethash algorithm. By fostering hardware innovation and development, ETC mining will continue to evolve towards FPGAs and ASICs, driving the power of the network downwards while increasing hashrates.
 
