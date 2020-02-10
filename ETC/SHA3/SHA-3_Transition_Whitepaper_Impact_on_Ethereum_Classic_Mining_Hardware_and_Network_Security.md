@@ -155,7 +155,7 @@ Efficiency</td>
 </table>
 
 
-*Sources:  **[Bitcoin.IT GPU & CPU Wik*i](https://en.bitcoin.it/wiki/Non-specialized_hardware_comparison)* &** **[Bitcoin.IT ASIC Wik*i](https://en.bitcoin.it/wiki/Mining_hardware_comparison#Graphics_cards)
+*Sources:  **[Bitcoin.IT GPU & CPU Wiki](https://en.bitcoin.it/wiki/Non-specialized_hardware_comparison)* &** **[Bitcoin.IT ASIC Wiki](https://en.bitcoin.it/wiki/Mining_hardware_comparison#Graphics_cards)
 
 As mining has evolved, networks began to see the risks associated with GPU and FPGA miners which migrated from network to network driven by profits. The Grin network has learned from the past and implemented a system where flexible hardware will be used to secure the network initially and phased out over time thus allowing ASICs to be manufactured. The same strategy can be used with ETC by forking to SHA-3 which is what [ECIP 1049](https://github.com/ethereumclassic/ECIPs/issues/13) is proposing.
 
@@ -209,7 +209,7 @@ FPGAs*</td>
 </table>
 
 
-*Sources:  **[Cryptorival SHA-3 webpag*e](https://cryptorival.com/algorithms/sha3/)* & **[Miningpoolstats SHA-3 page*s](https://miningpoolstats.stream/)
+*Sources:  **[Cryptorival SHA-3 webpage](https://cryptorival.com/algorithms/sha3/)* & **[Miningpoolstats SHA-3 pages](https://miningpoolstats.stream/)
 
 ## Software Infrastructure
 
@@ -291,7 +291,7 @@ A variety of SHA-3 mining hardware, ranging from GPUs, FPGAs to ASICs, are now b
 </table>
 
 
-*Sources: **[FPGA.Guide websit*e]( https://fpga.guide/en/ )* & **[Smartcash mining hardware pag*e](https://smartcash.freshdesk.com/support/solutions/articles/35000030312-mining-hardware-comparison)
+*Sources: **[FPGA.Guide website]( https://fpga.guide/en/ )* & **[Smartcash mining hardware page](https://smartcash.freshdesk.com/support/solutions/articles/35000030312-mining-hardware-comparison)
 
 ## SHA-3 Infrastructure
 
