@@ -60,7 +60,7 @@ Henry has over 30 years of executive, technology and strategic management experi
 
 # Notes to Reader
 
-1. This whitepaper uses ETC pricing and hashrate data during the last 30 days from 12/29/19 to 1/01/20 to estimate the network profile. Through a simple mean calculation, coin price of $7.85 USD was used for the ETC with a network hashrate of 16.04 TH/sec.
+1. This whitepaper uses ETC pricing and hashrate data during the last 30 days from 12/29/19 to 01/28/20 to estimate the network profile. Through a simple mean calculation, coin price of $7.85 USD was used for the ETC with a network hashrate of 16.04 TH/sec.
 
 2. This whitepaper ignores the impact of the "Fifthening" or reduction in ETC rewards every 5 million blocks (due around [13 March 2020](https://ecip1017.site/)). This has the impact of reducing rewards by 20% and therefore reduces the number of GPUs and FPGAs on the network by approximately 20%. As crypto prices can swing greatly within 24 hours, it is the opinion of the author that the numbers in the analysis comparing pre-SHA-3 rates to post-“fifthening” are valid as they fall within the normal range of coin price fluctuations. 
 
@@ -500,7 +500,7 @@ The cost of renting FPGAs is even higher due to the scarcity of hardware and the
     <td>3,760 instances or 30,000 FPGAs</td>
   </tr>
   <tr>
-    <td>Cost per AWS instance / hour</td>
+	  <td><a href="https://aws.amazon.com/ec2/instance-types/f1/">Cost per AWS instance / hour</a></td>
     <td>$13.20/hour or $316/day</td>
   </tr>
   <tr>
@@ -532,15 +532,15 @@ Dozens of publications on SHA-3 ASICs, FPGA logic designs, and open source code 
     <td>Description</td>
   </tr>
   <tr>
-    <td>National Institute of Standards and Technology (NIST)</td>
+    <td><a href="https://www.nist.gov/">National Institute of Standards and Technology (NIST)</a></td>
     <td>US government agency responsible for promoting strategic standards eg.  cybersecurity;</td>
   </tr>
   <tr>
-    <td>Institute for Integrated Systems</td>
+	  <td><a href="https://www.ee.ethz.ch/">Institute for Integrated Systems</a></td>
     <td>Department of Information Technology and Electrical Engineering of the Swiss Federal Institute of Technology Zurich (ETH Zurich)</td>
   </tr>
   <tr>
-    <td>Cryptographic Engineering Research Group</td>
+	  <td><a href="https://cryptography.gmu.edu/">Cryptographic Engineering Research Group</a></td>
     <td>George Mason University, one of the top engineering universities worldwide specializing in cryptography research</td>
   </tr>
 </table>
@@ -557,15 +557,15 @@ Detailed information on coding, designing and profiling SHA-3 ASICs and FPGA can
   </tr>
   <tr>
     <td>NIST Study</td>
-    <td>FPGA SHA-3 analysis</td>
+    <td><a href="https://pdfs.semanticscholar.org/af17/c8872e7cb812e961ad9717378f16e78f4287.pdf">FPGA SHA-3 analysis</a></td>
   </tr>
   <tr>
     <td>NIST competition</td>
-    <td>SHA-3 ASIC study</td>
+    <td><a href="https://past.date-conference.com/proceedings-archive/PAPERS/2012/DATE12/PDFFILES/09.3_2.PDF">SHA-3 ASIC study</a></td>
   </tr>
   <tr>
     <td>Github repository</td>
-    <td>SHA-3 sample code</td>
+    <td><a href="https://github.com/chrisveness/crypto/blob/master/sha3.js">SHA-3 sample code</a></td>
   </tr>
 </table>
 
