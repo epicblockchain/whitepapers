@@ -75,7 +75,7 @@ Both methods can be considered and tested to determine which is best for the ETC
 
 # Previous Status from ECIP-1049:
 
-While implementing ECIP-1049 on the Astor testnet, all ETC nodes were updated to allow for Keccak-256 to be changed to the primary mining PoW. This testnet was successful and both Besu and core-geth nodes were updated with these changes. A big thanks to @antsankov @[atoulme](https://github.com/atoulme) and @[meowsbits](https://github.com/meowsbits) for their expertise and development.
+While implementing ECIP-1049 on the Astor testnet, all ETC nodes were updated to allow for Keccak-256 to be changed to the primary mining PoW. This testnet was successful and both Besu and core-geth nodes were updated with these changes. A big thanks to @[antsankov](https://github.com/antsankov) @[atoulme](https://github.com/atoulme) and @[meowsbits](https://github.com/meowsbits) for their expertise and development.
 
 [besu](https://github.com/hyperledger/besu/commit/db23aef122eb82a4af8a15a9d2abd9fb40a0a151#diff-75b67375ea261d670f4a1eeea1c170eb3b29e8b9a7adb62a3944dec54079897f)
 
