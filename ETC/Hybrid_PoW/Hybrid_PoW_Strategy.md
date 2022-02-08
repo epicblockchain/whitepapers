@@ -333,7 +333,10 @@ As new investment is needed to mine Keccak-256, it is likely that new hardware w
 
 **Q. Will there be danger of a chain split on ETC?**
 
-A.  A chain split is unlikely based on data from other blockchains deploying previous PoW changes. Of the 6 examples shown below that needed significant hardware changes, the successful chain was the one led by developers and supported by the governing blockchain foundation.
+A.  The risk of a chain split is significantly lowered  as the proposal addresses the concerns of current ETCHash miners. Examining historical evidence from 6 other blockchains with PoW and hardware changes, the successful chain was the one led by developers and supported by the governing blockchain foundation.
+
+The motivation for a chain split is greatly reduced as GPU and ETCHash miners can continue to mine ETC using their current hardware. The Dual PoW framework is intended to address the threat of overcapacity of GPU and ETHash hardware while allowing ETCHash equipment to co-exist with Keccek256 capable hardware (GPU, FPGA and ASICs) while boosting ETC security. 
+
 
 
 <table>
