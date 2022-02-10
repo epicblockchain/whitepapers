@@ -93,7 +93,7 @@ The Hybrid Mining approach looks to extend this and allow for both algorithms to
 
 **Q: What happens to ETCHash GPUs and ASICs after the ETH PoS fork?**
 
-A:  Due to the dominant hashrate on ETH compared to ETC, 25TH to 1000TH respectively or 40x, it is clear that ETC will not support profitable mining for either GPUs or ASICs. This can be illustrated simplistically below using the current ETC mining calculator as an example. A RX480 GPU receives $220 annually mining ETC at a cost of $52; if the hashrate were to increase 40x or to 1TH, the rewards would be $5.50/year, clearly below the cost of electricity.
+A:  Due to the dominant hashrate on ETH compared to ETC, 25TH to 1000TH or 40x, it is clear that ETC will not support profitable mining for either GPUs or ASICs. This can be illustrated simplistically below using the current ETC mining calculator as an example. A RX480 GPU receives $220 annually mining ETC at a cost of $52; if the hashrate were to increase 40x or to 1TH, the rewards would be $5.50/year, clearly below the cost of electricity.
 
 ETHash ASICs have no resale value and will stay on ETC if profitable. The excess hardware may be used to disrupt or attack ETC or other  networks. 
 
@@ -319,7 +319,7 @@ Assumptions based on 2/7/21 hashrates from bitinfocharts.com:
 
 A. Adding Keccak-256 as 50% of the PoW split, effectively neutralizes the potential threats caused by PoS migration and the resulting hashrate saturation of ETHash hardware on ETC. ETHash ASICs will be unable to mine Keccak-256 which will reduce some of the saturation. GPUs may be able to mine Keccak-256 profitability until Keccak-256 ASICs reach volume production, which is estimated to be 12 months after the PoW split.
 
-**Q.  Aren’t ASIC bad for network security? **
+**Q.  Aren’t ASIC bad for network security?**
 
 A.   In ETC’s case, it is anticipated that the network will be totally centralized by ASIC once ETH’s PoS switch is completed. GPU’s will not be profitable due to the sheer number of ASIC miners and the high operating cost of GPU mining.
 
