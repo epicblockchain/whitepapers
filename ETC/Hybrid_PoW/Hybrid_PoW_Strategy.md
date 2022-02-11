@@ -113,6 +113,7 @@ Similarly, an A10Pro ASIC mining rig will be reduced from earning $4,200/year to
 
 
 In real life, most GPU and ASIC will cease mining for network security and earnings when mining becomes unprofitable.
+The mining rewards information used is from cryptocompare.com on 2022-02-06 at 8.04.33 AM EST.
 
 **Q: Will ETC or other blockchain networks be able to sustain profitable GPU mining after the ETH PoS migration?**
 
