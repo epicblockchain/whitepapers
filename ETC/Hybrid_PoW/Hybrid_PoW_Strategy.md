@@ -1,5 +1,5 @@
 
-# Overview:  Hybrid PoW Strategy
+# Overview:  Hybrid PoW Strategy for Ethereum Classic
 
 This document builds on the [ECIP-1049 proposal: Change the ETC Proof of Work Algorithm to Keccak-256](https://github.com/ethereumclassic/ECIPs/issues/394) by adding a Dual PoW Mining Framework to the current ETCHash with the proposed Keccak-256. There has been significant concern and debate in the ETC community about the impact on network security in light of the following areas:
 
