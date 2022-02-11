@@ -11,7 +11,7 @@
 
 ## January 28, 2020
 
-Henry Quan - CEO
+Henry Quan
 [ePIC Blockchain Inc.](https://www.epicblockchain.io/)
 
 Telegram: t.me/henry_epic
